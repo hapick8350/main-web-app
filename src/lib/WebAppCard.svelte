@@ -2,21 +2,21 @@
   export let app;
 </script>
 
-<a href={app.url} target="_blank" rel="noopener noreferrer" class="card-link">
-  <div class="card">
+<a href={app.url} target="_blank" rel="noopener noreferrer" class="card-link" aria-label="{app.name} - {app.description}">
+  <article class="card">
     <div class="card-image">
-      <img src={app.image} alt={app.name} />
+      <img src={app.image} alt="{app.name} 스크린샷" loading="lazy" />
     </div>
     <div class="card-content">
       <h3 class="card-title">{app.name}</h3>
       <p class="card-description">{app.description}</p>
-      <div class="card-tags">
+      <div class="card-tags" role="list" aria-label="앱 태그">
         {#each app.tags as tag}
-          <span class="tag">{tag}</span>
+          <span class="tag" role="listitem">{tag}</span>
         {/each}
       </div>
     </div>
-  </div>
+  </article>
 </a>
 
 <style>

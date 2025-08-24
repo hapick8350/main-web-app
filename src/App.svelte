@@ -79,25 +79,28 @@
 </script>
 
 {#if currentPage === 'home'}
-  <main>
+  <main role="main">
     <div class="container">
-      <header class="header">
+      <header class="header" role="banner">
         <h1 class="title">웹앱 갤러리</h1>
         <p class="subtitle">다양한 웹 애플리케이션을 탐색해보세요</p>
         
         <div class="search-container">
-          <div class="search-box">
-            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <form class="search-box" role="search">
+            <label for="search-input" class="sr-only">웹앱 검색</label>
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <circle cx="11" cy="11" r="8"/>
               <path d="m21 21-4.35-4.35"/>
             </svg>
             <input 
-              type="text" 
+              id="search-input"
+              type="search" 
               placeholder="앱 이름, 설명 또는 태그로 검색..." 
               bind:value={searchTerm}
               class="search-input"
+              aria-describedby="search-results"
             />
-          </div>
+          </form>
         </div>
       </header>
 
@@ -112,16 +115,16 @@
             <p>다른 키워드로 검색해보세요</p>
           </div>
         {:else}
-          <div class="cards-grid">
-            {#each filteredApps as app (app.id)}
-              <WebAppCard {app} />
-            {/each}
-          </div>
+                  <section class="cards-grid" role="region" aria-label="웹앱 목록" id="search-results" aria-live="polite">
+          {#each filteredApps as app (app.id)}
+            <WebAppCard {app} />
+          {/each}
+        </section>
         {/if}
       </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <div class="footer-container">
         <div class="footer-content">
           <div class="company-info">
@@ -576,5 +579,18 @@
     .footer-links {
       grid-template-columns: 1fr;
     }
+  }
+
+  /* Screen reader only class */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 </style>

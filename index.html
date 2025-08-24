@@ -1,13 +1,100 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Firsti - 혁신적인 웹 개발 솔루션 | 웹앱 갤러리</title>
+    <meta name="title" content="Firsti - 혁신적인 웹 개발 솔루션 | 웹앱 갤러리" />
+    <meta name="description" content="Firsti는 혁신적인 웹 개발 솔루션을 제공하는 기술 회사입니다. 웹 개발, 모바일 앱, UI/UX 디자인, 클라우드 솔루션을 제공하며 다양한 웹 애플리케이션을 탐색할 수 있습니다." />
+    <meta name="keywords" content="웹 개발, 모바일 앱, UI/UX 디자인, 클라우드 솔루션, 웹앱, 부동산 세금 계산기, 랜덤 추첨기, 복리 계산기, 타이머, ZPL 라벨 프린터" />
+    <meta name="author" content="Firsti" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="Korean" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://main-web-app.vercel.app/" />
+    <meta property="og:title" content="Firsti - 혁신적인 웹 개발 솔루션 | 웹앱 갤러리" />
+    <meta property="og:description" content="Firsti는 혁신적인 웹 개발 솔루션을 제공하는 기술 회사입니다. 웹 개발, 모바일 앱, UI/UX 디자인, 클라우드 솔루션을 제공합니다." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:site_name" content="Firsti" />
+    <meta property="og:locale" content="ko_KR" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://main-web-app.vercel.app/" />
+    <meta property="twitter:title" content="Firsti - 혁신적인 웹 개발 솔루션 | 웹앱 갤러리" />
+    <meta property="twitter:description" content="Firsti는 혁신적인 웹 개발 솔루션을 제공하는 기술 회사입니다. 웹 개발, 모바일 앱, UI/UX 디자인, 클라우드 솔루션을 제공합니다." />
+    <meta property="twitter:image" content="/og-image.jpg" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://main-web-app.vercel.app/" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Firsti",
+      "url": "https://main-web-app.vercel.app/",
+      "logo": "https://main-web-app.vercel.app/logo.png",
+      "description": "혁신적인 웹 개발 솔루션을 제공하는 기술 회사",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "contact@firsti.com"
+      },
+      "sameAs": [
+        "https://twitter.com/firsti",
+        "https://linkedin.com/company/firsti"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Firsti 웹앱 갤러리",
+      "url": "https://main-web-app.vercel.app/",
+      "description": "다양한 웹 애플리케이션을 탐색할 수 있는 갤러리",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://main-web-app.vercel.app/?search={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    
+    <!-- Google Analytics (예시) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
   </body>
 </html>
