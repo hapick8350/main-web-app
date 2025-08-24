@@ -7,7 +7,7 @@
       id: 1,
       name: "RealState",
       description: "부동산 세금 계산기로 취득세와 양도소득세를 간편하고 정확하게 계산할 수 있는 전문 서비스입니다.",
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=200&fit=crop",
+      image: "/realstate.web-app.jpg",
       url: "https://realestate.web-app.dev/",
       tags: ["부동산", "세금계산", "취득세"]
     },
