@@ -29,11 +29,11 @@
     },
     {
       id: 4,
-      name: "Figma",
-      description: "디자인과 프로토타이핑을 위한 협업 디자인 도구입니다.",
-      image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=200&fit=crop",
-      url: "https://www.figma.com",
-      tags: ["디자인", "UI/UX", "협업"]
+      name: "TimerWatch",
+      description: "정확한 시간 측정과 타이머 기능을 제공하는 실용적인 시계 도구입니다.",
+      image: "/timerwatch.web-app.jpg",
+      url: "https://timerwatch.web-app.dev/",
+      tags: ["타이머", "시계", "시간측정"]
     },
     {
       id: 5,
