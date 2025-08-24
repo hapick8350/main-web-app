@@ -109,7 +109,7 @@
     <div class="footer-container">
       <div class="footer-content">
         <div class="company-info">
-          <h3 class="company-name">VibeCoding</h3>
+          <h3 class="company-name">Firsti</h3>
           <p class="company-description">
             혁신적인 웹 개발 솔루션을 제공하는 기술 회사입니다. 
             사용자 경험을 최우선으로 하는 창의적인 웹 애플리케이션을 개발하여 
