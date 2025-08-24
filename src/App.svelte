@@ -22,10 +22,10 @@
     {
       id: 3,
       name: "CompInter",
-      description: "컴퓨터 인터페이스와 시스템 관리를 위한 전문 도구입니다.",
+      description: "복리 계산기로 투자 수익률과 자산 증가를 정확하게 계산할 수 있는 전문 도구입니다.",
       image: "/compinter.web-app.jpg",
       url: "https://compinter.web-app.dev/",
-      tags: ["컴퓨터", "시스템", "관리"]
+      tags: ["복리", "투자", "계산기"]
     },
     {
       id: 4,
