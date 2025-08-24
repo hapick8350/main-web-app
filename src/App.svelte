@@ -3,6 +3,7 @@
   import Services from './lib/pages/Services.svelte';
   import Company from './lib/pages/Company.svelte';
   import Support from './lib/pages/Support.svelte';
+  import AdSense from './lib/AdSense.svelte';
   
   // 페이지 상태 관리
   let currentPage = 'home';
@@ -115,11 +116,14 @@
             <p>다른 키워드로 검색해보세요</p>
           </div>
         {:else}
-                  <section class="cards-grid" role="region" aria-label="웹앱 목록" id="search-results" aria-live="polite">
-          {#each filteredApps as app (app.id)}
-            <WebAppCard {app} />
-          {/each}
-        </section>
+          <section class="cards-grid" role="region" aria-label="웹앱 목록" id="search-results" aria-live="polite">
+            {#each filteredApps as app (app.id)}
+              <WebAppCard {app} />
+            {/each}
+          </section>
+          
+          <!-- Google AdSense 광고 -->
+          <AdSense />
         {/if}
       </div>
     </div>
