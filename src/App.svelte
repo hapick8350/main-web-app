@@ -37,11 +37,11 @@
     },
     {
       id: 5,
-      name: "Slack",
-      description: "팀 커뮤니케이션과 협업을 위한 메시징 플랫폼입니다.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=200&fit=crop",
-      url: "https://slack.com",
-      tags: ["커뮤니케이션", "협업", "비즈니스"]
+      name: "ZPLForm",
+      description: "ZPL 라벨 프린터용 폼 생성과 관리를 위한 전문 도구입니다.",
+      image: "/zplform.web-app.jpg",
+      url: "https://zplform.web-app.dev/",
+      tags: ["ZPL", "라벨", "프린터"]
     },
     {
       id: 6,
