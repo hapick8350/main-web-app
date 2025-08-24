@@ -15,7 +15,7 @@
       id: 2,
       name: "ChoiceMaker",
       description: "의사결정이 어려울 때 랜덤으로 선택해드리는 편리한 추첨기 서비스입니다.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
       url: "https://choicemaker.web-app.dev/",
       tags: ["랜덤", "추첨", "의사결정"]
     },
