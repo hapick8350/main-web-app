@@ -43,14 +43,7 @@
       url: "https://zplform.web-app.dev/",
       tags: ["ZPL", "라벨", "프린터"]
     },
-    {
-      id: 6,
-      name: "Discord",
-      description: "게이머와 커뮤니티를 위한 음성 및 텍스트 채팅 플랫폼입니다.",
-      image: "https://images.unsplash.com/photo-1614680376408-81e91ffe3db7?w=400&h=200&fit=crop",
-      url: "https://discord.com",
-      tags: ["게임", "커뮤니티", "음성채팅"]
-    }
+
   ];
 
   let searchTerm = '';
