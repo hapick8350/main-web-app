@@ -21,11 +21,11 @@
     },
     {
       id: 3,
-      name: "Notion",
-      description: "노트 작성, 프로젝트 관리, 협업을 위한 올인원 워크스페이스입니다.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=200&fit=crop",
-      url: "https://www.notion.so",
-      tags: ["생산성", "협업", "노트"]
+      name: "CompInter",
+      description: "컴퓨터 인터페이스와 시스템 관리를 위한 전문 도구입니다.",
+      image: "/compinter.web-app.jpg",
+      url: "https://compinter.web-app.dev/",
+      tags: ["컴퓨터", "시스템", "관리"]
     },
     {
       id: 4,
