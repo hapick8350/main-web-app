@@ -6,10 +6,10 @@
     {
       id: 1,
       name: "RealState",
-      description: "부동산 투자와 관리를 위한 종합 플랫폼으로 현대적인 부동산 솔루션을 제공합니다.",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=200&fit=crop",
+      description: "부동산 세금 계산기와 투자 분석을 위한 전문 플랫폼으로 취득세, 양도소득세를 정확하게 계산합니다.",
+      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=200&fit=crop",
       url: "https://realstate.web-app.dev",
-      tags: ["부동산", "투자", "관리"]
+      tags: ["부동산", "세금계산", "투자분석"]
     },
     {
       id: 2,
