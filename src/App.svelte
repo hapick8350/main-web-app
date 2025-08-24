@@ -13,11 +13,11 @@
     },
     {
       id: 2,
-      name: "Netflix",
-      description: "영화와 TV 시리즈를 스트리밍할 수 있는 글로벌 플랫폼입니다.",
-      image: "https://images.unsplash.com/photo-1574267432553-4b4628081c31?w=400&h=200&fit=crop",
-      url: "https://www.netflix.com",
-      tags: ["영화", "TV", "스트리밍"]
+      name: "ChoiceMaker",
+      description: "의사결정이 어려울 때 랜덤으로 선택해드리는 편리한 추첨기 서비스입니다.",
+      image: "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=200&fit=crop",
+      url: "https://choicemaker.web-app.dev/",
+      tags: ["랜덤", "추첨", "의사결정"]
     },
     {
       id: 3,
